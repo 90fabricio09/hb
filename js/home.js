@@ -8,8 +8,8 @@ for (var i = 0; i < 5; i++) {
           '<div class="post__imagem">'+
             '<img src="'+post.imagem+'" alt="" class="img-responsiva">'+
           '</div>'+
-          '<span class="post__title">'+post.titulo+'</span>'+
-          '<p class="post__subtitle">'+post.description+'</p>'+
+           '<span class="post__title">'+post.titulo+'</span>'+
+           '<p class="post__subtitle">'+post.description+'</p>'+
         '</a>'+
       '</div>'+
     '</div>'+

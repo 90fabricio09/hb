@@ -88,6 +88,10 @@
     width: 768px;
   }
 
+  .footer{
+    padding-top: 10px;
+  }
+
   .footer__descricao br,
   .box-icone__texto br,
   .descricao-apresentacao br{
@@ -115,6 +119,16 @@
     width: 50%;
   }
 
+  .success {
+    font-size: 15px;
+    margin-top: 40px;
+    }
+  
+  .error {
+    font-size: 15px;
+    margin-top: 40px;
+    }
+
 }
 
 @media only screen and (max-width: 768px){
@@ -124,6 +138,7 @@
 
   .apresentacao__box{
     padding-top: 50px;
+    padding-bottom: 350px;
   }
 
   .icones{
@@ -217,11 +232,25 @@
     right: 20px;
     border-radius: 50%;
     width: 50px;
-    height: 60px;
+    height: auto;
 }
+
+  .instagram-button {
+    position: fixed;
+    bottom: 90px;
+    right: 20px;
+    border-radius: 50%;
+    width: 50px;
+    height: auto;
+  }
 }
 
 @media only screen and (max-width: 640px){
+  
+  .gallerybtn {
+    text-align: center;
+  }
+
   .center{
     width: auto;
     padding: 0 20px;

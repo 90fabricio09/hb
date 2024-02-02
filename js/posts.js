@@ -23,10 +23,5 @@ var posts = [
     "imagem": "https://media.discordapp.net/attachments/973694599547744276/1202462676308070430/mudanca.png?ex=65cd8ba2&is=65bb16a2&hm=d31421bba49795e5eb904a206bffaea73bff0231650393ba87eef078364d7800&=&format=webp&quality=lossless&width=627&height=353",
     "titulo": "MUDANÇAS",
     "description": "A HB Fretamento é uma empresa de destaque no setor de mudanças, oferecendo um serviço completo para facilitar o processo de mudança. Com uma frota de veículos adequados, a HB garante que suas pertences sejam transportadas com segurança e eficiência."
-  },
-  {
-    "imagem": "https://media.discordapp.net/attachments/973694599547744276/1202452977559019520/transporte_pessoas.png?ex=65cd829a&is=65bb0d9a&hm=6af2b290a364afb72ec979006b8dfac78780aafa1142235bbc25a1d553470ad5&=&format=webp&quality=lossless&width=627&height=353",
-    "titulo": "TRANSPORTE VIP",
-    "description": "A HB Fretamento é uma empresa líder em serviços de transporte VIP, oferecendo um serviço de transporte personalizado para atender às necessidades exclusivas de seus clientes VIP. A HB garante que cada viagem seja uma experiência excepcional."
   }
 ];

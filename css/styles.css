@@ -151,6 +151,7 @@ html, body{
 
 .apresentacao__box{
 	padding-top: 100px;
+	padding-bottom: 550px;
 }
 
 .apresentacao__descricao{
@@ -490,7 +491,7 @@ html, body{
 }
 
 .post{
-	padding-top: 150px;
+	padding-top: 80px;
 }
 
 .posts{
@@ -696,7 +697,7 @@ html, body{
 }
 
 .footer{
-	padding-top: 100px;
+	padding-top: 90px;
 }
 
 .footer .center{
@@ -800,6 +801,20 @@ html, body{
     scale: 0.9;
 }
 
+.instagram-button {
+	position: fixed;
+    bottom: 120px;
+    right: 40px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    transition: scale 0.3s;
+}
+
+.instagram-button:hover {
+	scale: 0.9;
+}
+
 .input-title{
 	font-weight: 600;
 	font-size: 14px;
@@ -839,3 +854,56 @@ html, body{
   section {
 	margin-bottom: 100px;
   }
+
+  .success {
+	text-align: center;
+	color: #323232;
+	font-size: 25px;
+	margin-top: 50px;
+  }
+
+  .error {
+	text-align: center;
+	color: #323232;
+	font-size: 25px;
+	margin-top: 50px;
+  }
+
+  section#servicos {
+	margin-bottom: 200px;
+  }
+
+section.galeria {
+	margin-top: 100px;
+}
+
+.gallery-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2vw;
+    padding: 0 2vw;
+}
+.gallery-items{
+    width: 340px;
+    height: 340px;
+    border: 10px solid #FFF;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    flex-grow: 1;
+    transition: all 0.3s;
+}
+.gallery-items img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery-items:hover{
+    transform: scale(1.1);
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.galleryimg {
+	margin-top: 40px;
+	text-align: center;
+}
