@@ -43,6 +43,10 @@ footer, header, hgroup, menu, nav, section {
 *{
 	scroll-behavior: smooth;
 }
+*::selection {
+    	background-color: #323232;
+    	color: #fccd29;
+}
 body {
 	line-height: 1;
 }
