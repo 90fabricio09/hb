@@ -803,7 +803,7 @@ html, body{
 }
 
 .whatsapp-button:hover {
-    scale: 0.9;
+    scale: 1.1;
 }
 
 .instagram-button {
@@ -817,7 +817,7 @@ html, body{
 }
 
 .instagram-button:hover {
-	scale: 0.9;
+	scale: 1.1;
 }
 
 .input-title{
